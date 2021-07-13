@@ -14,7 +14,9 @@ function transformData(data) {
 		result.add(value.name);
 	})
 	result.forEach((value) => {
-		finalResult.push(data.filter(item => item.name === value))
+		finalResult.push(data.filter(item => {
+			return !(value !== item.name);
+		}))
 	})
 
 	return finalResult;
