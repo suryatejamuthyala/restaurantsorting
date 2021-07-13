@@ -1,7 +1,7 @@
 body{
     text-align: left;
     font-family: "Lucida Grande", Monaco, monospace;
-    background: black;
+    /*background: black;*/
     color: firebrick;
     width: 100%;
     min-height: 30rem;
