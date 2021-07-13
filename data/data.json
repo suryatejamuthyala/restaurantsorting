@@ -1,0 +1,32 @@
+const data = [
+  {
+    name: "Pizza Hut",
+    location: 1,
+    distance: 0.1
+  },
+  {
+    name: "Taco Bell",
+    location: 1,
+    distance: 0.2
+  },
+  {
+    name: "Pizza Hut",
+    location: 2,
+    distance: 0.3
+  },
+  {
+    name: "Taco Bell",
+    location: 2,
+    distance: 0.4
+  },
+  {
+    name: "Wendys",
+    location: 1,
+    distance: 0.5
+  },
+  {
+    name: "Pizza Hut",
+    location: 3,
+    distance: 0.7
+  }
+]
